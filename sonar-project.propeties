@@ -1,0 +1,13 @@
+sonar.projectKey=variacao_acoes
+sonar.host.url=http://172.17.0.2:9000
+sonar.login=6c8c3b002ee2d0e1fdba5982b62d5679bd7fb7b1
+sonar.projectName=variacao_acoes
+sonar.projectVersion=Alpha
+sonar.projectVersion=1.0
+
+sonar.sources=.
+sonar.sourceEncoding=UTF-8
+sonar.exclusions=**/.bundle/**,**/vendor/**
+sonar.tests=.
+sonar.test.inclusions=**/*_spec.rb
+sonar.ruby.coverage.reportPath=./coverage/.resultset.json
